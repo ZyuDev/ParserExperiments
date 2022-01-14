@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CV/fXXKUHjuhLHVebLY9uTa4E03hrn9rW3lYU/hmb48phHIe1SiHG49cd9Y5i10BALHtykC6uu2TK6ft/Uqi8A==",
+  "success": true,
+  "projectFilePath": "D:\\_WORK\\REPO_GIT_HUB\\ParserExperiments\\ParlotExperiments\\ParlotExperiments.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MainGate\\.nuget\\packages\\parlot\\0.0.23\\parlot.0.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

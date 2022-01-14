@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\_WORK\\REPO_GIT_HUB\\ParserExperiments\\ParlotExperiments\\ParlotExperiments.csproj": {}
+  },
+  "projects": {
+    "D:\\_WORK\\REPO_GIT_HUB\\ParserExperiments\\ParlotExperiments\\ParlotExperiments.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_WORK\\REPO_GIT_HUB\\ParserExperiments\\ParlotExperiments\\ParlotExperiments.csproj",
+        "projectName": "ParlotExperiments",
+        "projectPath": "D:\\_WORK\\REPO_GIT_HUB\\ParserExperiments\\ParlotExperiments\\ParlotExperiments.csproj",
+        "packagesPath": "C:\\Users\\MainGate\\.nuget\\packages\\",
+        "outputPath": "D:\\_WORK\\REPO_GIT_HUB\\ParserExperiments\\ParlotExperiments\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MainGate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\_WORK\\MyPackages": {},
+          "http://www.nuget.org/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Parlot": {
+              "target": "Package",
+              "version": "[0.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
