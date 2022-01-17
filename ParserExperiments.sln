@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParlotExperiments", "Parlot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParlotExperiments.UnitTests", "ParlotExperiments.UnitTests\ParlotExperiments.UnitTests.csproj", "{F3E72866-D64C-44E0-96C0-41795A28FFE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparcheExperiments.UnitTests", "SparcheExperiments.UnitTests\SparcheExperiments.UnitTests.csproj", "{584290DB-42B4-42EF-8A89-B5387EFD392F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3E72866-D64C-44E0-96C0-41795A28FFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E72866-D64C-44E0-96C0-41795A28FFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E72866-D64C-44E0-96C0-41795A28FFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584290DB-42B4-42EF-8A89-B5387EFD392F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584290DB-42B4-42EF-8A89-B5387EFD392F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584290DB-42B4-42EF-8A89-B5387EFD392F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584290DB-42B4-42EF-8A89-B5387EFD392F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

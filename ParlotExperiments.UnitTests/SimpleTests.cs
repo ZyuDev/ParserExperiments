@@ -40,11 +40,24 @@ namespace ParlotExperiments.UnitTests
 
             //var result = parser.Parse(str);
 
-            var parser = Separated(Terms.Text(","), Terms.NonWhiteSpace(false));
-            var result = parser.Parse("1, 2, 3");
+            var parser = Separated<char, TextSpan>(Terms.Char(','), Terms.String());
+            
+            var result = parser.Parse("a, b, c");
+
+            var result2 = Terms.Pattern(c=> true).Parse("a, b, c");
 
             Assert.Pass();
 
+        }
+
+        [Test]
+        public void Before()
+        {
+            var str = "Save()";
+
+            var result = AnyCharBefore<char>(Terms.Char('(')).Parse(str);
+
+            Assert.Pass();
         }
     }
 }
